@@ -1,2 +1,9 @@
 /.idea/
-/items.json
+/.env
+/laptops.json
+
+/cars.json
+/mobiles.json
+/bikes.json
+
+
