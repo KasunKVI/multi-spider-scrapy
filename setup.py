@@ -5,6 +5,6 @@ setup(
     version='1.0',
     packages=find_packages(),
     entry_points={
-        'scrapy': ['settings = settings'],
+        'scrapy': ['settings = multi_spider/settings'],
     },
 )
