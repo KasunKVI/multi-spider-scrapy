@@ -1,2 +1,2 @@
 scrapy>=2.2.0
-itemloaders
+itemloaders>=1.3.1
