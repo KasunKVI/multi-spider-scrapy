@@ -273,6 +273,8 @@ class BikeScrapper(scrapy.Spider):
             else:
                 print(f"Data sent successfully: {response.status_code}")
 
+
+
 # Configure CrawlerProcess to export to JSON
 process = CrawlerProcess(settings={
     "FEEDS": {
