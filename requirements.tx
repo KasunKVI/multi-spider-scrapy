@@ -1,2 +1,2 @@
-Scrapy==2.11.2
-itemloaders>=0.8.0
+scrapy>=2.2.0
+itemloaders
