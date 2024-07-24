@@ -258,7 +258,7 @@ class BikeScrapper(scrapy.Spider):
         with open("bikes.json", "w") as f:
             json.dump([item.to_dict() for item in self.data], f)
 
-        self.send_data_to_api(self.data, 'http://localhost:8080/api/saveBikes')
+        self.send_data_to_api(self.data, 'http://206.189.93.220:8080/api/saveBikes')
 
         self.data.clear()
 
