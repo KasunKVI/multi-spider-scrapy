@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 # Load environment variables
-load_dotenv()
+# load_dotenv()
 
 # Import the ChatOpenAI class from the langchain_openai module
 from langchain_openai import ChatOpenAI
