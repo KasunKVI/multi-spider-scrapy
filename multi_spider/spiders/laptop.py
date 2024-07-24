@@ -1,13 +1,12 @@
 
 
 import scrapy
-from scrapy import Request
 from scrapy.crawler import CrawlerProcess
 from scrapy.exceptions import DropItem
 from scrapy.loader import ItemLoader
 from itemloaders.processors import  MapCompose, TakeFirst
 from w3lib.html import remove_tags
-from ai_extract import extractDescriptionAi
+from multi_spider.spiders.ai_extract import extractDescriptionAi
 import json
 import requests
 
